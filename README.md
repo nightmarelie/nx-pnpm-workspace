@@ -7,6 +7,6 @@ pnpm --filter <package-app> <command>
 
 ## Add package to specific app
 ```bash
-pnpm --filter <package-app> add <package-name>
+pnpm --filter <package-app> add [-D] <package-name>
 ```
 
