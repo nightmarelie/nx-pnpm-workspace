@@ -1,13 +1,13 @@
 {
-  "name": "nx-pnpm-workspace",
+  "name": "shared-ui",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "remix-app:dev": "pnpm --filter my-remix-app dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
 }
