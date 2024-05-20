@@ -2,8 +2,11 @@
   "name": "shared-ui",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {},
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "watch": "tsc -w"
+  },
   "keywords": [],
   "author": "",
   "license": "MIT",
