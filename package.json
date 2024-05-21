@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "remix-app:dev": "pnpm --filter my-remix-app dev",
+    "remix-app": "pnpm --filter my-remix-app",
+    "shared-ui": "pnpm --filter shared-ui",
+    "remix-app:dev": "pnpm remix-app dev",
+    "remix-app:start": "pnpm remix-app start",
+    "remix-app:lint": "pnpm remix-app lint",
+    "remix-app:build": "pnpm remix-app build",
+    "shared-ui:build": "pnpm shared-ui build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
