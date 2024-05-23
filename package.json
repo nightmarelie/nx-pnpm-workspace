@@ -11,6 +11,7 @@
     "remix-app:lint": "pnpm remix-app lint",
     "remix-app:build": "pnpm remix-app build",
     "shared-ui:build": "pnpm shared-ui build",
+    "all:build": "pnpm -r build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
