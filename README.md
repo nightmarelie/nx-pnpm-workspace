@@ -24,6 +24,12 @@ pnpm -r <command>
 pnpm --filter <package-app> add <package-name> --workspace
 ```
 
+## Add package to root level
+
+```bash
+pnpm add [-D] -w <package-name>
+```
+
 ## Add package to specific app
 
 ```bash
