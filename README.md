@@ -53,3 +53,12 @@ pnpm recursive add [-D] <package-name>
 ```bash
 pnpm recursive remove <package-name>
 ```
+
+# NX Commands
+
+```bash
+pnpm --filter --filter <package-app> <command>
+
+pnpx nx run <command>:<package-app>
+pnpx mx <command>:<package-app>
+```
