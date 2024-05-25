@@ -62,3 +62,10 @@ pnpm --filter --filter <package-app> <command>
 pnpx nx run <command>:<package-app>
 pnpx mx <command>:<package-app>
 ```
+
+```bash
+pnpm -r <command>
+
+pnpx nx run-many --target=<command>
+pnpx nx run-many --target=<command> --projects=<package-app-one>,<package-app-two>
+```
