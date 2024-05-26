@@ -56,6 +56,13 @@ pnpm recursive remove <package-name>
 
 # NX Commands
 
+## Initialize
+
+```bash
+pnpx nx init
+```
+
+## Run command in specific app
 ```bash
 pnpm --filter --filter <package-app> <command>
 
@@ -63,6 +70,7 @@ pnpx nx run <command>:<package-app>
 pnpx mx <command>:<package-app>
 ```
 
+## Run command in all apps
 ```bash
 pnpm -r <command>
 

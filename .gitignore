@@ -3,3 +3,5 @@ dist
 build
 .idea
 .nx
+.nx/cache
+.nx/workspace-data
