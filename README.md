@@ -66,8 +66,8 @@ pnpx nx init
 ```bash
 pnpm --filter --filter <package-app> <command>
 
-pnpx nx run <command>:<package-app>
-pnpx mx <command>:<package-app>
+pnpx nx run <package-app>:<command>
+pnpx nx <command> <package-app>
 ```
 
 ## Run command in all apps
