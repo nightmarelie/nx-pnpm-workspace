@@ -82,3 +82,21 @@ pnpx nx run-many --target=<command> --projects=<package-app-one>,<package-app-tw
 ```bash
 pnpx nx dep-graph
 ```
+
+## Affected commands
+
+- look Git history
+- figure out project changed
+- run command on affected projects
+
+```bash
+pnpx nx affected:<command>
+````
+
+```bash
+pnpx nx affected:apps
+pnpx nx affected:build
+pnpx nx affected:e2e
+pnpx nx affected:test
+pnpx nx affected:lint
+```
