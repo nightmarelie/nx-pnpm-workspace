@@ -76,4 +76,9 @@ pnpm -r <command>
 
 pnpx nx run-many --target=<command>
 pnpx nx run-many --target=<command> --projects=<package-app-one>,<package-app-two>
-```w
+```
+
+## Show project graph
+```bash
+pnpx nx dep-graph
+```
