@@ -99,4 +99,5 @@ pnpx nx affected:build
 pnpx nx affected:e2e
 pnpx nx affected:test
 pnpx nx affected:lint
+pnpx nx affected:graph --base=<branch>
 ```
